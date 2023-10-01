@@ -1,0 +1,129 @@
+
+body{
+    background-color: rgb(242, 242, 242);
+}
+
+.container{
+    width: 98%;
+    height:550px; 
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-image: url('images/image1.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #000000;
+    margin-bottom: 5px;
+}
+
+.container1{
+    width: 98%; 
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #a4a4a4;
+    border: 1px solid #000000;
+    margin-bottom: 5px;
+}
+
+header {
+    width: 98%;
+    margin: 0 auto;
+    background-color: #252525;
+    color: white;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+.header-content {
+    display: flex;
+    margin-left: 50px;
+}
+
+footer {
+    width: 98%;
+    margin: 0 auto;
+    background-color: #252525;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 5px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #e0e0e0;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+nav a:hover {
+    background-color: #676767;
+}
+
+.column-container {
+    display: flex;
+    border: 1px solid #000000;
+    border-width: 5px;
+}
+
+.column1 {
+    flex: 1;
+    padding: 20px;
+    margin: 5px;
+}
+
+.column2 {
+    flex: 2;
+    padding: 20px;
+    margin: 5px;
+    text-align: left;
+}
+
+.hello{
+    color: #ffffff;
+    font-family: cursive;
+    font-size: 150px;
+}
+
+.social-button {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-decoration: none;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+
+.social-icon {
+    width: 90%;
+    height: auto;
+    margin-top: 3px;
+}
+
+.linkedin {
+    background-color: #0077B5;
+}
+
+.github {
+    background-color: #000000;
+}
+
+.twitter {
+    background-color: #1DA1F2;
+}
+
+.instagram {
+    background-color: #E4405F;
+}
+
